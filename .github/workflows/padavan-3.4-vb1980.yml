@@ -1,4 +1,4 @@
-name: 云编译3.4内核的Padavan-zj
+name: 云编译3.4内核的Padavan-vb1980
 
 on:
   workflow_dispatch:
@@ -58,11 +58,11 @@ on:
         default: 'false'
 
 env:
-  REPOSITORY_URL: https://github.com/touyingji/Padavan-KVR
+  REPOSITORY_URL: https://github.com/vb1980/Padavan-KVR
   WORK_PATH: /opt/padavan-3.4
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
-  FIRMWARE_AUTHOR: touyingji
+  FIRMWARE_AUTHOR: vb1980
   FIRMWARE_PATH: /opt/firmwares
   DIY_P1_SH: diy-config.sh
   TZ: Asia/Shanghai
