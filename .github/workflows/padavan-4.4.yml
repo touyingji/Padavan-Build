@@ -7,6 +7,7 @@ on:
         type: choice
         description: 'target to compile'
         options:
+        - NEWIFI3
         - K2P
         - RM2100
         - R2100
@@ -21,7 +22,6 @@ on:
         - MR2600
         - MI-R3P
         - MI-R3G
-        - NEWIFI3
         - XY-C1
         - WR1200JS
         - MSG1500
