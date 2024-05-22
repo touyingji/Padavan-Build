@@ -7,6 +7,7 @@ on:
         type: choice
         description: 'target to compile'
         options:
+        - NEWIFI3
         - MI-NANO
         - MI-MINI
         - MI-3
@@ -33,7 +34,6 @@ on:
         - DIR-878
         - DIR-882
         - MR2600
-        - NEWIFI3
         - XY-C1
         - WR1200JS
         - MSG1500
